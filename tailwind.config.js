@@ -2,7 +2,7 @@ module.exports = {
   prefix: '',
   purge: {
     enabled: true,
-    content: ['**/*.html', '**/*.ts']
+    content: ["./src/**/*.html", "./src/**/*.scss"],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
